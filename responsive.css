@@ -20,10 +20,13 @@
 }
 
 @media screen and (max-width: 850px) {
+
+
   .content {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+    margin-top: 15rem;
   }
 
   .image-group {
@@ -70,7 +73,6 @@
   header {
     left: 8rem;
     bottom: 0;
-    height: 100px;
   }
 
   .container {
@@ -113,7 +115,7 @@
   }
 
    .search input {
-     font-size: 1rem;
+     font-size: 0.7rem;
    }
 
    .sm-list {
