@@ -39,7 +39,8 @@
   }
 
   .container {
-    margin-left: 15rem;
+    margin-left: 20rem;
+    margin-left: 5rem;
   }
 
 
@@ -50,15 +51,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  header {
-    left: 10rem;
-  }
-
-  .image-group {
-    display: none;
-  }
-
-
   .blob1 {
     top: 12rem;
     left: 60%;
@@ -67,6 +59,10 @@
 
   .container {
     margin-left: 12rem;
+  }
+
+  .image-group {
+    margin-left: 4rem;
   }
 }
 
