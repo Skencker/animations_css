@@ -88,6 +88,7 @@ header {
   display: flex;
   align-items: center;
 }
+
 .landing-page::before {
   content:'';
   position: absolute;
@@ -98,8 +99,6 @@ header {
   background-image: url('./images/bg-pat.png');
   background-size: cover;
   opacity: .6;
-  z-index: ;
-  
 }
 
 .content {

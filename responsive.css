@@ -1,0 +1,131 @@
+@media screen and (max-width: 1500px) {
+  header {
+    left: 15rem;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  header {
+    width: 70%;
+  }
+  .image-group {
+    width: 70%;
+  }
+  .blob-bean {
+    width: 50%;
+  }
+  .container {
+    margin-left: 20rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .image-group {
+    margin-left: 8rem;
+    margin-top: 10rem;
+  }
+
+  .blob4,
+  .blob3,
+  .blob2,
+  .blob1 {
+    display: none;
+  }
+
+  .container {
+    margin-left: 15rem;
+  }
+
+
+
+  header {
+    left: 12rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    left: 10rem;
+  }
+
+  .image-group {
+    display: none;
+  }
+
+
+  .blob1 {
+    top: 12rem;
+    left: 60%;
+    width: 40%;
+  }
+
+  .container {
+    margin-left: 12rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    left: 8rem;
+    bottom: 0;
+    height: 100px;
+  }
+
+  .container {
+    margin-left: 8rem;
+  }
+
+  .search  {
+  
+  width: 120%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+ .nav-list {
+   display: none;
+ }
+
+ .logo {
+   margin-left: 5rem;
+   width: 80%;
+ }
+
+ .title {
+   font-size: 4rem;
+ }
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    margin-left: 2rem;
+  }
+
+  .container {
+    margin-left: 4rem;
+  }
+
+  .search-btn {
+    width: 8rem;
+    margin-left: -8rem;
+  }
+
+   .search input {
+     font-size: 1rem;
+   }
+
+   .sm-list {
+     justify-content: center;
+   }
+
+  
+
+
+}
+
